@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zoomable Map</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="map-container">
+      <div id="map-wrapper">
+        <img src="map.png" id="map-image" />
+      </div>
+      <!-- Markers: use Minecraft coordinates -->
+       <!-- Red - 500 -->
+      <div class="marker red" data-x="33" data-y="-3042"></div>
+      <div class="marker red" data-x="2910" data-y="785"></div>
+      <div class="marker red" data-x="-1359" data-y="1630"></div>
+
+      <!-- Yellow - 250 -->
+      <div class="marker yellow" data-x="2574" data-y="1725"></div>
+      <div class="marker yellow" data-x="1254" data-y="-896"></div>
+      <div class="marker yellow" data-x="-212" data-y="-1558"></div>
+      <div class="marker yellow" data-x="-1703" data-y="-1153"></div>
+      <div class="marker yellow" data-x="1836" data-y="96"></div>
+
+      <!-- Purple - 200 -->
+       <div class="marker purple" data-x="-961" data-y="-2616"></div>
+       <div class="marker purple" data-x="2181" data-y="-794"></div>
+       <div class="marker purple" data-x="268" data-y="-948"></div>
+       <div class="marker purple" data-x="1926" data-y="973"></div>
+       <div class="marker purple" data-x="-1258" data-y="-491"></div>
+       <div class="marker purple" data-x="2283" data-y="-2906"></div>
+       <div class="marker purple" data-x="-917" data-y="1339"></div>
+
+       <!-- Blue - 100 -->
+      <div class="marker blue" data-x="1363" data-y="828"></div>
+      <div class="marker blue" data-x="-833" data-y="-927"></div>
+      <div class="marker blue" data-x="-2049" data-y="-1471"></div>
+      <div class="marker blue" data-x="2940" data-y="-1163"></div>
+      <div class="marker blue" data-x="353" data-y="-2825"></div>
+      <div class="marker blue" data-x="1141" data-y="50"></div>
+      <div class="marker blue" data-x="1707" data-y="1718"></div>
+      <div class="marker blue" data-x="-1658" data-y="1226"></div>
+      <div class="marker blue" data-x="803" data-y="-1293"></div>
+      <div class="marker blue" data-x="1194" data-y="1520"></div>
+
+      <!-- Orange - 50 -->
+       <div class="marker orange" data-x="-1214" data-y="-1506"></div>
+       <div class="marker orange" data-x="-2019" data-y="-304"></div>
+       <div class="marker orange" data-x="2786" data-y="485"></div>
+       <div class="marker orange" data-x="-842" data-y="1048"></div>
+       <div class="marker orange" data-x="-2048" data-y="-883"></div>
+       <div class="marker orange" data-x="-1950" data-y="1704"></div>
+       <div class="marker orange" data-x="-701" data-y="1438"></div>
+       <div class="marker orange" data-x="-157" data-y="-2302"></div>
+       <div class="marker orange" data-x="677" data-y="1216"></div>
+       <div class="marker orange" data-x="-732" data-y="-520"></div>
+       <div class="marker orange" data-x="1080" data-y="-1744"></div>
+       <div class="marker orange" data-x="577" data-y="-29"></div>
+       <div class="marker orange" data-x="314" data-y="-1120"></div>
+       <div class="marker orange" data-x="-1631" data-y="-2647"></div>
+       <div class="marker orange" data-x="2638" data-y="-2003"></div>
+
+       <!-- Black - 10 -->
+      <div class="marker black" data-x="28" data-y="-466"></div>
+      <div class="marker black" data-x="-965" data-y="-1504"></div>
+      <div class="marker black" data-x="-450" data-y="-942"></div>
+      <div class="marker black" data-x="-1572" data-y="126"></div>
+      <div class="marker black" data-x="-273" data-y="-2382"></div>
+      <div class="marker black" data-x="662" data-y="1765"></div>
+      <div class="marker black" data-x="1590" data-y="765"></div>
+      <div class="marker black" data-x="-1686" data-y="1781"></div>
+      <div class="marker black" data-x="-584" data-y="-1961"></div>
+      <div class="marker black" data-x="2182" data-y="-1479"></div>
+      <div class="marker black" data-x="2739" data-y="1202"></div>
+      <div class="marker black" data-x="468" data-y="-2199"></div>
+      <div class="marker black" data-x="726" data-y="-708"></div>
+      <div class="marker black" data-x="2187" data-y="1511"></div>
+      <div class="marker black" data-x="-310" data-y="599"></div>
+      <div class="marker black" data-x="2529" data-y="362"></div>
+      <div class="marker black" data-x="2395" data-y="-2687"></div>
+      <div class="marker black" data-x="885" data-y="819"></div>
+      <div class="marker black" data-x="-1743" data-y="-1055"></div>
+      <div class="marker black" data-x="1255" data-y="-2460"></div>
+
+    </div>
+    <div id="map-key">
+      <h3>Map Key</h3>
+      <ul>
+        <li><span class="key-dot red"></span>500 Points</li>
+        <li><span class="key-dot yellow"></span>250 Points</li>
+        <li><span class="key-dot purple"></span>200 Points</li>
+        <li><span class="key-dot blue"></span>100 Points</li>
+        <li><span class="key-dot orange"></span>50 Points</li>
+        <li><span class="key-dot black"></span>10 Points</li>
+      </ul>
+    </div>
+  </body>
+</html>
